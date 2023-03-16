@@ -1,0 +1,27 @@
+{
+# 公众号配置
+# 公众号appId
+"app_id": "wx48ac2fef933ea107",
+# 公众号appSecret
+"app_secret": "1dbab1008446ec4ba0b549bd599c72ce",
+# 模板消息id
+"template_id": "5gG3426ICuAMLviSOqaPVLV4M0lh3aPkk5i2hTDMzA0",
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
+"user": ["ogMRk6LSXDnK-KciZbe_e8-JF4rk"],
+ 
+# 信息配置
+# 和风天气apikey
+"weather_key": "6af2e9e7782c497e8527c79fabbf1354",
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"region": "昆山",
+# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
+"birthday1": {"name": "PRINCE SHAN", "birthday": "1998-09-04"},
+# 生日2
+"birthday2": {"name": "PRINCESS ZHOU", "birthday": "1991-09-06"},
+# 在一起的日子，格式同上，暂不不支持农历
+"love_date": "2023-03-06",
+# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_ch": "早上好呀小朋友, 今天又是元气满满的一天呀~",
+# 金句英文
+"note_en": "Good morning my princess. Wish you a nice day today!"
+}
